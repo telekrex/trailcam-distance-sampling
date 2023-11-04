@@ -36,6 +36,17 @@ for distance in sightings_distances:
     else:
         mapped_distances[distance] = 1
 
+
+
+
+
+
+
+
+
+
+
+
 md = []
 for x in mapped_distances:
     md.append(x)
