@@ -1,0 +1,33 @@
+the project is kindof 3 parts.
+
+1. Sampling formula, written in Haskell
+2. Data simulation and visualization, pygame?
+3. Data extraction from video
+
+
+
+Camera to pole  83 in 6.9 ft
+Camera to plate  144 in 12 ft
+Camera to fence  304 in  25.3 ft
+Camera 120 degrees 3,036 sq ft
+
+
+
+Camera FOV (degrees) * Distance to limit (feet) = Area surveyed (sq ft)
+(number of animals seen / percentage of propably seen) / (area surveyed / total area of region) = estimated total in region
+
+-
+
+population_estimate = (seen / probably_seen) / (survey_area / region_area)
+where survey_area = cam_fov * limit_dist
+and probably_seen = detection function goes here
+
+
+
+get the distance from the observer to each observed object
+make a list of the distance of each observed object
+count the amount of distances (rounded) that are shared
+the area of observed data / the area of not observed data becomes the percentage of probably seen
+
+
+Verify the math..
