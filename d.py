@@ -25,8 +25,3 @@ for distance in sd:
         mapped_distances[distance] = mapped_distances.get(distance) + 1
     else:
         mapped_distances[distance] = 1
-
-
-
-
-
