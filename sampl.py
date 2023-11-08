@@ -1,5 +1,3 @@
-
-
 # Camera to pole  83 in 6.9 ft
 # Camera to plate  144 in 12 ft
 # Camera to fence  304 in  25.3 ft
@@ -7,9 +5,9 @@
 
 species = 'kitty cat'
 
-region_area_sqft = 500000 # roughly 3 block radius
-camera_fov_degrees = 120
-distance_limit_feet = 25.3 # from my camera to the fence
+region_area_sqft = 1000 # roughly 3 block radius
+camera_fov_degrees = 60
+distance_limit_feet = 5 # from my camera to the fence
 area_surveyed_sqft = camera_fov_degrees * distance_limit_feet
 
 # population_estimate = (seen / probably_seen) / (survey_area / region_area)
@@ -35,15 +33,6 @@ for distance in sightings_distances:
         mapped_distances[distance] = mapped_distances.get(distance) + 1
     else:
         mapped_distances[distance] = 1
-
-
-
-
-
-
-
-
-
 
 
 
