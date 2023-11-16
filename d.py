@@ -18,7 +18,7 @@ V = 3 # Approx. area taken up by a single specimen, in sq. ft
 # in my backyard). I am interested in an estimation of
 # 500,000 square feet around me, roughly a 3 block raidus.
 
-sd = [1, 3, 2, 1] # list of sightings, each in feet
+sd = [13, 13, 15, 3, 14] # list of sightings, each in feet
 aR = R - (V * len(sd)) # region area minus total area taken up by sepcimens, in sq. ft
 n = len(sd) # number of sightings, total
 maxd = sorted(sd)[-1] # max sighting distance
@@ -40,5 +40,5 @@ percentage_of_sightings = ratio
 estimated_population_size = (n / percentage_of_sightings) / (A / aR)
 specimen_per_sqft = estimated_population_size / aR
 
-print(f'\n approximately ~{round(estimated_population_size)} {animal}s in the area')
-print(f' thats {round(specimen_per_sqft, 4)} {animal}s per square foot\n')
+# print results
+print(f'\n approximately ~{round(estimated_population_size)} {animal}s in the area\n')
