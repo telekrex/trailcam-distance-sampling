@@ -22,20 +22,17 @@ I understand that observations can be recorded from a single point if you measur
 ## The Data
 From 10/21 - 10/26, there were 5 unique cats that roamed through the area covered by the camera. Many of them were seen multple times, but I only included 1 frame from the first sightings in the data.
 
-![image](./sightings/cat1.jpeg Title"Sighting 1 - Approx ~13ft")
-~13 ft
-~13 ft
-~15 ft
-~3  ft
-~14 ft
-
-Cat1
-Cat2
-Cat3
-Cat4
+![image](./sightings/cat1.png "Sighting 1 - Approx ~13ft")
+![image](./sightings/cat2.png "Sighting 2 - Approx ~13ft")
+![image](./sightings/cat3.png "Sighting 3 - Approx ~15ft")
+![image](./sightings/cat4.png "Sighting 4 - Approx ~13ft")
+![image](./sightings/cat5.png "Sighting 5 - Approx ~14ft")
 
 I know how far they are from the camera because I made several measurements to reference objects in view of the camera, and their distances to it, including the fence, which is my "limit".
 
 I briefly thought about including a computer vision aspect in this project to virtually 'tag' animals, and then you could scale to animals that are more difficult to distinguish, but I do not have the patience to work on that, and this was just for fun, so.. If someone out there would like to tackle that and somehow combine our projects that would be exciting, perhaps.
 
 I humbly attempted to address the fact that distance sampling is sensitive to animal movement; it doesn't really take into account the fact that they travel over time. If you could 3D scan the full survey region in an instant, this could be a lot more valid, but I've worked in photogrammetry before and I'm not aware of any cost effective way to do this. It defeats the purpose anyway of my idea to use trail cams alone as the observer. I had the idea to subtract the estimate area of the animal (per sighting) from the region area, so that animals cannot theoretically occupy the same space, but if you try out the script yourself you will see that this doesn't really have a large impact on the results. Maybe if the region area is very, very small it does. But for now the biggest factor is the sightings themselves. As put above, I'm not a scientist, but I'd love to hear from someone (anyone) if my ideas have any validity or not.
+
+## Credits
+All work here written by me (Telekrex) under MIT license. Email: telekrex@gmail.com
