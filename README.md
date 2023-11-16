@@ -34,5 +34,8 @@ I briefly thought about including a computer vision aspect in this project to vi
 
 I humbly attempted to address the fact that distance sampling is sensitive to animal movement; it doesn't really take into account the fact that they travel over time. If you could 3D scan the full survey region in an instant, this could be a lot more valid, but I've worked in photogrammetry before and I'm not aware of any cost effective way to do this. It defeats the purpose anyway of my idea to use trail cams alone as the observer. I had the idea to subtract the estimate area of the animal (per sighting) from the region area, so that animals cannot theoretically occupy the same space, but if you try out the script yourself you will see that this doesn't really have a large impact on the results. Maybe if the region area is very, very small it does. But for now the biggest factor is the sightings themselves. As put above, I'm not a scientist, but I'd love to hear from someone (anyone) if my ideas have any validity or not.
 
+## Results
+`d.py` includes the formula and example usage of it with the data explained above. When it runs, it spits out an estimate of `~241 cats` in the area of question (the total region, not the survey spot) which in this case is a 3-block radius. I think it's a bit high, and I think with more data from other spots it could be more accurate, but 200 or so cats in the area doesn't seem far off.
+
 ## Credits
 All work here written by me (Telekrex) under MIT license. Email: telekrex@gmail.com
