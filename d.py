@@ -41,4 +41,4 @@ estimated_population_size = (n / percentage_of_sightings) / (A / aR)
 specimen_per_sqft = estimated_population_size / aR
 
 print(f'\n approximately ~{round(estimated_population_size)} {animal}s in the area')
-print(f' thats {round(specimen_per_sqft, 4)} {animal}s per square foot')
+print(f' thats {round(specimen_per_sqft, 4)} {animal}s per square foot\n')
