@@ -1,4 +1,4 @@
-<h1 align="center" style="margin-top: -10px"> Distance (Camera) Sampling</h1>
+<h1 align="center" style="margin-top: -10px"> Distance Sampling via Trail-Cam</h1>
 <p align="center" style="width: 100;">
    Attempting to perform distance sampling population studies using only camera footage.<br>
 </p>
@@ -38,4 +38,7 @@ I humbly attempted to address the fact that distance sampling is sensitive to an
 `d.py` includes the formula and example usage of it with the data explained above. When it runs, it spits out an estimate of `~241 cats` in the area of question (the total region, not the survey spot) which in this case is a 3-block radius. I think it's a bit high, and I think with more data from other spots it could be more accurate, but 200 or so cats in the area doesn't seem far off.
 
 ## Credits
-All work here written by me (Telekrex) under MIT license. Email: telekrex@gmail.com
+Written by telekrex.
+
+## License
+This project is released into the public domain. See the [LICENSE](LICENSE) file for details.
